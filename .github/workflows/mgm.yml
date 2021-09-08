@@ -1,18 +1,18 @@
 name: Freqtrade for MoniGoMany CI
 
-# on:
-#   push:
-#     branches:
-#       - develop
-#     tags:
-#       - mgm-v*
-#   release:
-#     types: [published]
-#   pull_request:
-#   schedule:
-#     - cron:  '0 5 * * 4'
+on:
+  push:
+    branches:
+      - develop
+    tags:
+      - mgm-v*
+  release:
+    types: [published]
+  pull_request:
+  schedule:
+    - cron:  '0 5 * * 4'
 
-# jobs:
+jobs:
 #   build_linux:
 
 #     runs-on: ${{ matrix.os }}
